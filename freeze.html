@@ -402,7 +402,7 @@
                 slotEl.style.transform = 'translateY(0)';
 
                 let currentY = 0;
-                const symbolHeight = 140;
+                const symbolHeight = slotEl.querySelector('.symbol').offsetHeight;
                 const totalSymbols = symbolList.length;
                 const targetY = -(totalSymbols - 3) * symbolHeight;
 
